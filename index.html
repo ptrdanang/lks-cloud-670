@@ -88,21 +88,18 @@
 
 
         fetch('https://jsonplanceholder.typicode.com/post/1')
-        .then(response =>{
-            console.log("Data API berhasil diterima. Status:", response.status);
-        })
-        .then(data =>{
-            const apiDiv = document.getElementById('data-api');
-            apiDiv.innerHTML = `
-                <h4>Contoh Data yang Berhasil Diambil:</h4>
-                <strong>Judul:</string> ${data.title} <br>
-                <strong>ISi:</strong> &{data.body.substring(0, 100)}...
-            `;
-        })
-        .catch(error =>{
-            console.error("Terjadi error saat mengambil data API!", error);
-            document.getElementById('data-api').textContent = 'Gagal memuat data API .';
-        })
+            .then(response => {
+                console.log("Data API berhasil diterima. Status:", response.status);
+                return response.json();
+            })
+            .then(data => {
+                const apiDiv = document.getElementById('data-api')
+                apiDiv.innerHTML = `
+                   <h4>Contoh Data yang Berhasil Diambil:</h4>
+                   <strong>Judl:</strong> ${data.title} <br>
+                   <strong>Isi:</strong> ${data.body.substring(0, 100)}...
+                `;
+            })
     </script>
 
 
