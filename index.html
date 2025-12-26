@@ -88,7 +88,7 @@
         console.log("Memulai proses fetch data untuk fitur dinamis...");
 
 
-        fetch('https://jsonplanceholder.typicode.com/post/1')
+        fetch('https://jsonplaceholder.typicode.com/posts/1')
             .then(response => {
                 console.log("Data API berhasil diterima. Status:", response.status);
                 return response.json();
