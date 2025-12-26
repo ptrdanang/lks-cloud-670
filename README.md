@@ -13,16 +13,16 @@ APlikasi ini adalah sebuah Web aplikasi statis yang diabngun untuk memenuhi kual
 1. **Version Control**: Inisialisasi Git lokal dan push kode ke GitHub Repository.
 2. **Paas Integration**: Menghubungkan akun Vercel dengan reposiory GitHub.
 3. **Auto Deployment**: Vercel akan otomatis mendeteksi peruabhan pada branch `main` dan melakukan build ulang (CI/CD).
-4. **Verification**: Memastikan website dapat diakses mel;alui domain HTTPS yang disediakan.
+4. **Verification**: Memastikan website dapat diakses melalui domain HTTPS yang disediakan.
 
-## 🛠 Teknologi yang Digunakan 
-* **Frontend**: HTML5, CSS3, JavaScrip (Vanila).
-* **API**: JSONPlaceholder (External Rest API).
+## 🛠️ Teknologi yang Digunakan
+* **Frontend**: HTML5, CSS3, JavaScript (Vanilla).
+* **API**: JSONPlaceholder (External REST API).
 * **Platform**: GitHub (SCM) & Vercel (Cloud Hosting).
 
-## 🛡 Keamanan & Optimasi 
-* **HTTPS**: Encripsi SSL otomatis dari Vercel untuk keaman transmisi data.
-* **Clean Code**: JavaScrip ditempatkan secara internal/modular untuk menghindari error 404 pada jalur file.
+## 🛡️ Keamanan & Optimasi
+* **HTTPS**: Enkripsi SSL otomatis dari Vercel untuk keamanan transmisi data.
+* **Clean Code**: JavaScript ditempatkan secara internal/modular untuk menghindari error 404 pada jalur file.
 * **Error Handling**: Implementasi `.catch()` pada fungsi fetch untuk menangani kegagalan API.
 
 ## 📸 Tampilan Apliksi
@@ -41,8 +41,8 @@ Berikut adalah tampilan antarmuka dari web APP LKS CLoud Computing 2026:
 *Halaman Identitas resmi peserta LKS
 
 ## 🔗 Tautan Penting
-* **Repository**: []
-* **link Web**: []
+* **Repository**: [https://github.com/ptrdanang/lks-cloud-670.git]
+* **link Web**: [https://lks-cloud-670.vercel.app/]
 
 ---
 **Identitas Peserta:**
